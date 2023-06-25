@@ -1,13 +1,13 @@
-//
-//  StarCell.swift
-//  DiaryApp
-//
-//  Created by 목정아 on 2023/06/24.
-//
-
 import UIKit
 
 class StarCell: UICollectionViewCell {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        self.contentView.layer.cornerRadius = 3.3
+        self.contentView.layer.borderWidth = 1.0
+        self.contentView.layer.borderColor = UIColor.black.cgColor
+    }
 }
