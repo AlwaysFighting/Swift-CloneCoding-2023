@@ -1,0 +1,11 @@
+//
+//  Config.xcconfig
+//  Wheather
+//
+//  Created by 목정아 on 2023/06/26.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+WHEATHER_API_KEY = "1234"

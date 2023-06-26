@@ -14,6 +14,7 @@
 		51F8F97C2A496B4800A1D31A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51F8F97B2A496B4800A1D31A /* Assets.xcassets */; };
 		51F8F97F2A496B4800A1D31A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F8F97D2A496B4800A1D31A /* LaunchScreen.storyboard */; };
 		51F8F9872A496D7800A1D31A /* WheatherInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8F9862A496D7800A1D31A /* WheatherInformation.swift */; };
+		51F8F9912A497C3000A1D31A /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8F9902A497C3000A1D31A /* Manager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		51F8F97E2A496B4800A1D31A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51F8F9802A496B4800A1D31A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51F8F9862A496D7800A1D31A /* WheatherInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherInformation.swift; sourceTree = "<group>"; };
+		51F8F98D2A497AE500A1D31A /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		51F8F9902A497C3000A1D31A /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		51F8F9712A496B4700A1D31A /* Wheather */ = {
 			isa = PBXGroup;
 			children = (
+				51F8F98F2A497C2300A1D31A /* API */,
 				51F8F9722A496B4700A1D31A /* AppDelegate.swift */,
 				51F8F9742A496B4700A1D31A /* SceneDelegate.swift */,
 				51F8F9762A496B4700A1D31A /* ViewController.swift */,
@@ -66,8 +70,17 @@
 				51F8F97D2A496B4800A1D31A /* LaunchScreen.storyboard */,
 				51F8F9802A496B4800A1D31A /* Info.plist */,
 				51F8F9862A496D7800A1D31A /* WheatherInformation.swift */,
+				51F8F98D2A497AE500A1D31A /* Config.xcconfig */,
 			);
 			path = Wheather;
+			sourceTree = "<group>";
+		};
+		51F8F98F2A497C2300A1D31A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				51F8F9902A497C3000A1D31A /* Manager.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +158,7 @@
 				51F8F9732A496B4700A1D31A /* AppDelegate.swift in Sources */,
 				51F8F9872A496D7800A1D31A /* WheatherInformation.swift in Sources */,
 				51F8F9752A496B4700A1D31A /* SceneDelegate.swift in Sources */,
+				51F8F9912A497C3000A1D31A /* Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +186,7 @@
 /* Begin XCBuildConfiguration section */
 		51F8F9812A496B4800A1D31A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51F8F98D2A497AE500A1D31A /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -232,6 +247,7 @@
 		};
 		51F8F9822A496B4800A1D31A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51F8F98D2A497AE500A1D31A /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;

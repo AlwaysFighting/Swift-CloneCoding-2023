@@ -9,11 +9,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var maxTempLabel: UILabel!
     @IBOutlet weak var minTempLabel: UILabel!
     
+    let manager = Manager()
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print(manager.apiKey)
     }
     
     
