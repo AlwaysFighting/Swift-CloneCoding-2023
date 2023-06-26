@@ -26,7 +26,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="날씨 가져오기"/>
                                 <connections>
-                                    <action selector="tapPatchWheatherButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aNq-jv-fdt"/>
+                                    <action selector="tapFetchWheatherButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BcH-IP-Vuo"/>
                                 </connections>
                             </button>
                             <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Ydj-ik-Ii2">
@@ -99,6 +99,7 @@
                         <outlet property="maxTempLabel" destination="gNy-nD-XR3" id="VBa-ll-IPm"/>
                         <outlet property="minTempLabel" destination="rmk-fQ-xim" id="Q07-O9-OHw"/>
                         <outlet property="tempLabel" destination="JNq-m9-0B6" id="8gZ-zN-iag"/>
+                        <outlet property="weatherStackView" destination="Ydj-ik-Ii2" id="zYi-tc-UKB"/>
                         <outlet property="wheatherDescription" destination="gVe-Ng-k8t" id="KAf-pI-OlH"/>
                     </connections>
                 </viewController>

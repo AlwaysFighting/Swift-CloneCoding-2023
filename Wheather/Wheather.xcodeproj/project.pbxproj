@@ -15,6 +15,7 @@
 		51F8F97F2A496B4800A1D31A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F8F97D2A496B4800A1D31A /* LaunchScreen.storyboard */; };
 		51F8F9872A496D7800A1D31A /* WheatherInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8F9862A496D7800A1D31A /* WheatherInformation.swift */; };
 		51F8F9912A497C3000A1D31A /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8F9902A497C3000A1D31A /* Manager.swift */; };
+		51F8F9942A49AEA800A1D31A /* ErrorMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8F9932A49AEA700A1D31A /* ErrorMsg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		51F8F9862A496D7800A1D31A /* WheatherInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherInformation.swift; sourceTree = "<group>"; };
 		51F8F9902A497C3000A1D31A /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		51F8F9922A497F7D00A1D31A /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		51F8F9932A49AEA700A1D31A /* ErrorMsg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMsg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				51F8F97D2A496B4800A1D31A /* LaunchScreen.storyboard */,
 				51F8F9802A496B4800A1D31A /* Info.plist */,
 				51F8F9862A496D7800A1D31A /* WheatherInformation.swift */,
+				51F8F9932A49AEA700A1D31A /* ErrorMsg.swift */,
 			);
 			path = Wheather;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51F8F9942A49AEA800A1D31A /* ErrorMsg.swift in Sources */,
 				51F8F9772A496B4700A1D31A /* ViewController.swift in Sources */,
 				51F8F9732A496B4700A1D31A /* AppDelegate.swift in Sources */,
 				51F8F9872A496D7800A1D31A /* WheatherInformation.swift in Sources */,
