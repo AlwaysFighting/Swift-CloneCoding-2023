@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B3066619-9376-43B9-8E9A-D96CB5F39CCF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2351A393-AFB0-463E-A390-E09DAE807E97"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SubWay/Scene/StationSearchViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "StationSearchViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "2351A393-AFB0-463E-A390-E09DAE807E97 - 6fc48a30d85bf33f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SubWay.StationSearchViewController.stations.getter : Swift.Array&lt;SubWay.Station&gt;"
+                  moduleName = "SubWay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mokjeong-a/Desktop/IOS_FastCampas/SubWay/SubWay/Scene/StationSearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "2351A393-AFB0-463E-A390-E09DAE807E97 - 85268b19544a5f2b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SubWay.StationSearchViewController.stations.setter : Swift.Array&lt;SubWay.Station&gt;"
+                  moduleName = "SubWay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mokjeong-a/Desktop/IOS_FastCampas/SubWay/SubWay/Scene/StationSearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "2351A393-AFB0-463E-A390-E09DAE807E97 - bf288c9fe5055a38"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SubWay.StationSearchViewController.stations.modify : Swift.Array&lt;SubWay.Station&gt;"
+                  moduleName = "SubWay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mokjeong-a/Desktop/IOS_FastCampas/SubWay/SubWay/Scene/StationSearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2351A393-AFB0-463E-A390-E09DAE807E97 - 4c93435e5559e62e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SubWay.StationSearchViewController.stations.modify : Swift.Array&lt;SubWay.Station&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "SubWay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mokjeong-a/Desktop/IOS_FastCampas/SubWay/SubWay/Scene/StationSearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "2351A393-AFB0-463E-A390-E09DAE807E97 - 5b24355d1ea45db5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SubWay.StationSearchViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SubWay.StationSearchViewController"
+                  moduleName = "SubWay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mokjeong-a/Desktop/IOS_FastCampas/SubWay/SubWay/Scene/StationSearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "2351A393-AFB0-463E-A390-E09DAE807E97 - e695f920577e0eee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SubWay.StationSearchViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SubWay.StationSearchViewController&gt;"
+                  moduleName = "SubWay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mokjeong-a/Desktop/IOS_FastCampas/SubWay/SubWay/Scene/StationSearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
