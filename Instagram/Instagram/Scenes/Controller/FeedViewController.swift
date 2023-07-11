@@ -20,6 +20,15 @@ class FeedViewController: UIViewController {
         return tableView
     }()
     
+    private lazy var imagePickerVC : UIImagePickerController = {
+        let imagePickerVC = UIImagePickerController()
+        imagePickerVC.sourceType = .photoLibrary
+        imagePickerVC.allowsEditing = true
+        imagePickerVC.delegate = self
+        
+        return imagePickerVC
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupNavigationController()
@@ -27,6 +36,30 @@ class FeedViewController: UIViewController {
         self.setTableViewLayout()
     }
     
+}
+
+extension FeedViewController : UIImagePickerControllerDelegate, UINavigationControllerDelegate  {
+    // image 누르고 선택한 다음에 다음 동작을 실행하는 메서드
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        
+        var selectImage: UIImage?
+        
+        // info : 선택된 이미지
+        if let editedImage = info[UIImagePickerController.InfoKey.editedImage] as? UIImage {
+            // editing 한 이미지
+            selectImage = editedImage
+        } else if let originImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+            // 기존에 선택된 이미지 그대로
+            selectImage = originImage
+        }
+        picker.dismiss(animated: true) { [weak self] in
+            let uploadVC = UploadViewController(uploadImage: selectImage ?? UIImage())
+            let navigationController = UINavigationController(rootViewController: uploadVC)
+            navigationController.modalPresentationStyle = .fullScreen
+            
+            self?.present(navigationController, animated: true)
+        }
+    }
 }
 
 // MARK: - Navigation
@@ -45,8 +78,12 @@ private extension FeedViewController {
     }
     
     func setUpNavigationBar() {
-        let uploadButton = UIBarButtonItem(image: UIImage(systemName: "plus.app"), style: .plain, target: self, action: nil)
+        let uploadButton = UIBarButtonItem(image: UIImage(systemName: "plus.app"), style: .plain, target: self, action: #selector(didTapUpLoadButton))
         navigationItem.rightBarButtonItem = uploadButton
+    }
+    
+    @objc func didTapUpLoadButton() {
+        present(imagePickerVC, animated: true)
     }
 }
 

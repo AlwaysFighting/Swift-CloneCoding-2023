@@ -19,6 +19,7 @@
 		512FDB442A589726009B2512 /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512FDB432A589726009B2512 /* ProfileCollectionViewCell.swift */; };
 		51B099D82A59D79C002F1419 /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B099D72A59D79C002F1419 /* UIButton+.swift */; };
 		51B099DC2A59E102002F1419 /* ProfileDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B099DB2A59E102002F1419 /* ProfileDataView.swift */; };
+		51DD75C82A5D35ED00D05926 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DD75C72A5D35ED00D05926 /* UploadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		512FDB432A589726009B2512 /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
 		51B099D72A59D79C002F1419 /* UIButton+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+.swift"; sourceTree = "<group>"; };
 		51B099DB2A59E102002F1419 /* ProfileDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataView.swift; sourceTree = "<group>"; };
+		51DD75C72A5D35ED00D05926 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			children = (
 				512FDB272A5888C2009B2512 /* FeedViewController.swift */,
 				512FDB3D2A5890E1009B2512 /* ProfileViewController.swift */,
+				51DD75C72A5D35ED00D05926 /* UploadViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				512FDB282A5888C2009B2512 /* FeedViewController.swift in Sources */,
+				51DD75C82A5D35ED00D05926 /* UploadViewController.swift in Sources */,
 				512FDB422A58971C009B2512 /* FeedTableViewCell.swift in Sources */,
 				512FDB3B2A588A66009B2512 /* TabBarController.swift in Sources */,
 				512FDB442A589726009B2512 /* ProfileCollectionViewCell.swift in Sources */,
