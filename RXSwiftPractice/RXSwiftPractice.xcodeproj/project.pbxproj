@@ -20,6 +20,9 @@
 		22FC4600E54DD9F6FD8D2336 /* Pods-RXSwiftPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwiftPractice.debug.xcconfig"; path = "Target Support Files/Pods-RXSwiftPractice/Pods-RXSwiftPractice.debug.xcconfig"; sourceTree = "<group>"; };
 		399D516935EFB2DAC8D7D0AC /* Pods_RXSwiftPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RXSwiftPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BA9F42A93C45B25B620E07C /* Pods-RXSwiftPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwiftPractice.release.xcconfig"; path = "Target Support Files/Pods-RXSwiftPractice/Pods-RXSwiftPractice.release.xcconfig"; sourceTree = "<group>"; };
+		519344882A5F1D2F0047E846 /* Subject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		519344892A5F228C0047E846 /* FilteringOperator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FilteringOperator.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		51D1B7372A5FF66D00E61DEF /* TransformingOperatorPractice.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TransformingOperatorPractice.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		51DD76122A5D48FC00D05926 /* RXSwiftPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RXSwiftPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51DD76152A5D48FC00D05926 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51DD76172A5D48FC00D05926 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		51DD76092A5D48FC00D05926 = {
 			isa = PBXGroup;
 			children = (
+				51D1B7372A5FF66D00E61DEF /* TransformingOperatorPractice.playground */,
+				519344892A5F228C0047E846 /* FilteringOperator.playground */,
+				519344882A5F1D2F0047E846 /* Subject.playground */,
 				51DD762A2A5D863C00D05926 /* Traits.playground */,
 				51DD76292A5D495200D05926 /* Observable.playground */,
 				51DD76142A5D48FC00D05926 /* RXSwiftPractice */,
