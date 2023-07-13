@@ -6,6 +6,8 @@ target 'GithubRepo' do
   use_frameworks!
 
 	pod 'RxSwift', '~> 6.5'
+	pod 'RxCocoa', '~> 6.5'
+	pod 'SnapKit', '~> 5.6'
 
   # Pods for GithubRepo
 
