@@ -1,0 +1,6 @@
+framework module Pods_DanggnMarket {
+  umbrella header "Pods-DanggnMarket-umbrella.h"
+
+  export *
+  module * { export * }
+}
