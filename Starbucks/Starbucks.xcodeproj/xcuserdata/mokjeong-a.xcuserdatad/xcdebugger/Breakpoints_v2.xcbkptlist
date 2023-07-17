@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CBD8C732-AB44-4F78-9630-858DC7064C78"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "109109A7-4B28-435D-A526-89E8597B08C8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Starbucks/Scenes/Home/HomeHeaderView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "HomeHeaderView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "109109A7-4B28-435D-A526-89E8597B08C8 - 539973d82cc25555"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Starbucks.HomeHeaderView.isNeedToReload.getter : Swift.Bool"
+                  moduleName = "Starbucks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mokjeong-a/Desktop/IOS_FastCampas/Starbucks/Starbucks/Scenes/Home/HomeHeaderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "109109A7-4B28-435D-A526-89E8597B08C8 - d0eccc0ad7f70d59"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Starbucks.HomeHeaderView.isNeedToReload.setter : Swift.Bool"
+                  moduleName = "Starbucks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mokjeong-a/Desktop/IOS_FastCampas/Starbucks/Starbucks/Scenes/Home/HomeHeaderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "109109A7-4B28-435D-A526-89E8597B08C8 - 810b5bb874a20b68"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Starbucks.HomeHeaderView.isNeedToReload.modify : Swift.Bool"
+                  moduleName = "Starbucks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mokjeong-a/Desktop/IOS_FastCampas/Starbucks/Starbucks/Scenes/Home/HomeHeaderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "109109A7-4B28-435D-A526-89E8597B08C8 - 2cdcc9e7a3177359"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Starbucks.HomeHeaderView.isNeedToReload.modify : Swift.Bool with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Starbucks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mokjeong-a/Desktop/IOS_FastCampas/Starbucks/Starbucks/Scenes/Home/HomeHeaderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "109109A7-4B28-435D-A526-89E8597B08C8 - 9c3f9f63f00a4c11"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Starbucks.HomeHeaderView.$isNeedToReload.getter : SwiftUI.Binding&lt;Swift.Bool&gt;"
+                  moduleName = "Starbucks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mokjeong-a/Desktop/IOS_FastCampas/Starbucks/Starbucks/Scenes/Home/HomeHeaderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "188">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
