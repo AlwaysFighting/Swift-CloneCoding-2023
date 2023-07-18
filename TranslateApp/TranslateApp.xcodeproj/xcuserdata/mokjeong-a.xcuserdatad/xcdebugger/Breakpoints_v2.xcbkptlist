@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1997CBBB-C1F4-436C-9BC4-6ABE19B74B4C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4447F2FB-E579-45B5-BE02-31B5D942A161"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TranslateApp/Scenes/Translate/TranslateViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "resultLabel"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "4447F2FB-E579-45B5-BE02-31B5D942A161 - 3412e3df635204fa"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TranslateApp.TranslateViewController.resultLabel.getter : __C.UILabel"
+                  moduleName = "TranslateApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mokjeong-a/Desktop/IOS_FastCampas/TranslateApp/TranslateApp/Scenes/Translate/TranslateViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "4447F2FB-E579-45B5-BE02-31B5D942A161 - 86f417339e2da20e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TranslateApp.TranslateViewController.resultLabel.setter : __C.UILabel"
+                  moduleName = "TranslateApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mokjeong-a/Desktop/IOS_FastCampas/TranslateApp/TranslateApp/Scenes/Translate/TranslateViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "4447F2FB-E579-45B5-BE02-31B5D942A161 - c7be3b1cabd9531f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TranslateApp.TranslateViewController.resultLabel.modify : __C.UILabel"
+                  moduleName = "TranslateApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mokjeong-a/Desktop/IOS_FastCampas/TranslateApp/TranslateApp/Scenes/Translate/TranslateViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4447F2FB-E579-45B5-BE02-31B5D942A161 - e047fcff363d7265"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TranslateApp.TranslateViewController.resultLabel.modify : __C.UILabel with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "TranslateApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mokjeong-a/Desktop/IOS_FastCampas/TranslateApp/TranslateApp/Scenes/Translate/TranslateViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "4447F2FB-E579-45B5-BE02-31B5D942A161 - 91a201972d0edbc4"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TranslateApp.TranslateViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; TranslateApp.TranslateViewController"
+                  moduleName = "TranslateApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mokjeong-a/Desktop/IOS_FastCampas/TranslateApp/TranslateApp/Scenes/Translate/TranslateViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "4447F2FB-E579-45B5-BE02-31B5D942A161 - 676ac68df9888d70"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TranslateApp.TranslateViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;TranslateApp.TranslateViewController&gt;"
+                  moduleName = "TranslateApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mokjeong-a/Desktop/IOS_FastCampas/TranslateApp/TranslateApp/Scenes/Translate/TranslateViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "232">
+               </Location>
+               <Location
+                  uuid = "4447F2FB-E579-45B5-BE02-31B5D942A161 - 789eee496c4fb047"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.UILabel in TranslateApp.TranslateViewController.resultLabel.getter : __C.UILabel"
+                  moduleName = "TranslateApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mokjeong-a/Desktop/IOS_FastCampas/TranslateApp/TranslateApp/Scenes/Translate/TranslateViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
