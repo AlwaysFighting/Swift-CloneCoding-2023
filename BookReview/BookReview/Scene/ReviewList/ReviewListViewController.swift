@@ -32,8 +32,7 @@ class ReviewListViewController: UIViewController {
         
         presenter.viewWillAppear()
     }
-    
-    
+
 }
 
 extension ReviewListViewController : ReviewListProtocol {

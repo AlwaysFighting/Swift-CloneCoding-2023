@@ -19,15 +19,18 @@ protocol ReviewWriteProtocol {
 final class ReviewWritePresenter {
     
     private let viewController : ReviewWriteProtocol
+    private var userDefaultsManager : UserDefaultsManagerProtocol
     
-    private let userDefaultsManager = UserDefaultsManager()
-    
-    private var book: Book?
+    var book: Book?
     
     let contentsTextViewPlaceholderText = "내용을 입력해주세요."
     
-    init(viewController: ReviewWriteProtocol) {
+    init(
+        viewController: ReviewWriteProtocol,
+    userDefaultsManager : UserDefaultsManagerProtocol = UserDefaultsManager()
+    ) {
         self.viewController = viewController
+        self.userDefaultsManager = userDefaultsManager
     }
     
     func viewDidLoad() {

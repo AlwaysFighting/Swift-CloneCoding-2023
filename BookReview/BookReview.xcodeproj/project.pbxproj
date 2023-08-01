@@ -14,7 +14,7 @@
 		513EEF412A73B3F000E07501 /* ReviewListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513EEF402A73B3F000E07501 /* ReviewListViewController.swift */; };
 		513EEF462A73B3F100E07501 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 513EEF452A73B3F100E07501 /* Assets.xcassets */; };
 		513EEF492A73B3F100E07501 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 513EEF472A73B3F100E07501 /* LaunchScreen.storyboard */; };
-		513EEF542A73B3F100E07501 /* BookReviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513EEF532A73B3F100E07501 /* BookReviewTests.swift */; };
+		513EEF542A73B3F100E07501 /* ReviewListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513EEF532A73B3F100E07501 /* ReviewListPresenterTests.swift */; };
 		513EEF5E2A73B3F100E07501 /* BookReviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513EEF5D2A73B3F100E07501 /* BookReviewUITests.swift */; };
 		513EEF602A73B3F100E07501 /* BookReviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513EEF5F2A73B3F100E07501 /* BookReviewUITestsLaunchTests.swift */; };
 		513EEF6E2A73B3FC00E07501 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 513EEF6D2A73B3FC00E07501 /* SnapKit */; };
@@ -29,6 +29,9 @@
 		513EEF872A7438F300E07501 /* BookSearchReponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513EEF862A7438F300E07501 /* BookSearchReponseModel.swift */; };
 		513EEF892A7439C500E07501 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513EEF882A7439C500E07501 /* Book.swift */; };
 		513EEF8B2A743A1900E07501 /* BookSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513EEF8A2A743A1900E07501 /* BookSearchManager.swift */; };
+		51A9A40A2A7918E000661CAF /* MockReviewListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A9A4092A7918E000661CAF /* MockReviewListViewController.swift */; };
+		51A9A40C2A79191D00661CAF /* MockUserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A9A40B2A79191D00661CAF /* MockUserDefaultsManager.swift */; };
+		51A9A4102A79218200661CAF /* ReviewWritePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A9A40F2A79218200661CAF /* ReviewWritePresenterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +62,7 @@
 		513EEF482A73B3F100E07501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		513EEF4A2A73B3F100E07501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		513EEF4F2A73B3F100E07501 /* BookReviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookReviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		513EEF532A73B3F100E07501 /* BookReviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookReviewTests.swift; sourceTree = "<group>"; };
+		513EEF532A73B3F100E07501 /* ReviewListPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListPresenterTests.swift; sourceTree = "<group>"; };
 		513EEF592A73B3F100E07501 /* BookReviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookReviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		513EEF5D2A73B3F100E07501 /* BookReviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookReviewUITests.swift; sourceTree = "<group>"; };
 		513EEF5F2A73B3F100E07501 /* BookReviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookReviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -72,6 +75,9 @@
 		513EEF862A7438F300E07501 /* BookSearchReponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchReponseModel.swift; sourceTree = "<group>"; };
 		513EEF882A7439C500E07501 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		513EEF8A2A743A1900E07501 /* BookSearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchManager.swift; sourceTree = "<group>"; };
+		51A9A4092A7918E000661CAF /* MockReviewListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockReviewListViewController.swift; sourceTree = "<group>"; };
+		51A9A40B2A79191D00661CAF /* MockUserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserDefaultsManager.swift; sourceTree = "<group>"; };
+		51A9A40F2A79218200661CAF /* ReviewWritePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewWritePresenterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +144,8 @@
 		513EEF522A73B3F100E07501 /* BookReviewTests */ = {
 			isa = PBXGroup;
 			children = (
-				513EEF532A73B3F100E07501 /* BookReviewTests.swift */,
+				51A9A40E2A79193E00661CAF /* Test */,
+				51A9A40D2A79193300661CAF /* Mock */,
 			);
 			path = BookReviewTests;
 			sourceTree = "<group>";
@@ -209,6 +216,24 @@
 				5115DA912A7571A6001AD932 /* UserDefaultsManager.swift */,
 			);
 			path = Manager;
+			sourceTree = "<group>";
+		};
+		51A9A40D2A79193300661CAF /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				51A9A4092A7918E000661CAF /* MockReviewListViewController.swift */,
+				51A9A40B2A79191D00661CAF /* MockUserDefaultsManager.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		51A9A40E2A79193E00661CAF /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				513EEF532A73B3F100E07501 /* ReviewListPresenterTests.swift */,
+				51A9A40F2A79218200661CAF /* ReviewWritePresenterTests.swift */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,7 +397,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				513EEF542A73B3F100E07501 /* BookReviewTests.swift in Sources */,
+				51A9A40A2A7918E000661CAF /* MockReviewListViewController.swift in Sources */,
+				513EEF542A73B3F100E07501 /* ReviewListPresenterTests.swift in Sources */,
+				51A9A4102A79218200661CAF /* ReviewWritePresenterTests.swift in Sources */,
+				51A9A40C2A79191D00661CAF /* MockUserDefaultsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

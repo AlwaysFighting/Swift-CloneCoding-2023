@@ -21,12 +21,16 @@ protocol ReviewListProtocol {
 final class ReviewListPresenter : NSObject {
     // VC 가 해야 할 프로토콜
     private let viewController : ReviewListProtocol
-    private let userDefaultsManager = UserDefaultsManager()
+    private let userDefaultsManager : UserDefaultsManagerProtocol
     
     private var review : [BookReview] = []
     
-    init(viewController: ReviewListProtocol) {
+    init(
+        viewController: ReviewListProtocol,
+        userDefaultsManager: UserDefaultsManagerProtocol = UserDefaultsManager()
+    ) {
         self.viewController = viewController
+        self.userDefaultsManager = userDefaultsManager
     }
     
     func viewDidLoad() {
